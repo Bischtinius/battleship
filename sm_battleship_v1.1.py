@@ -61,7 +61,6 @@ def boote_berechnen():
         boat(4)
     boat(5)
 
-
 def treffer_berechen():
     tre_min = 0
     for i in range(len(Board_Boats)):
@@ -75,7 +74,6 @@ def numbers(Board):
         Board[i][0] = str(i)
     for i in range(len(Board[0])):
         Board[0][i] = str(i)
-
 
 calcBoard(Board_Shots)
 calcBoard(Board_Boats)
